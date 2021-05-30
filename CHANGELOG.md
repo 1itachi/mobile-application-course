@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/itachi1994/mobile-application-course/compare/v1.0.0...v1.0.1) (2021-05-30)
+
+
+### Bug Fixes
+
+* **pencil:** Week 3 release-constraint layout ([c6024c3](https://github.com/itachi1994/mobile-application-course/commit/c6024c37cb03e9a8f261710b10f0562b6a5a1ac7))
+
 # 1.0.0 (2021-05-13)
 
 
