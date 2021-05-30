@@ -20,26 +20,9 @@ public class MainActivity extends AppCompatActivity {
     //This method will be called upon the button click
     public void onClick(View view) {
 
-//        TextView name = findViewById(R.id.name);
-//        TextView email = findViewById(R.id.email);
-//        if(name.getText() == ""){
-//            name.setText(R.string.convert_name);
-//            email.setText(R.string.convert_email);
-//        }else{
-//            name.setText("");
-//            email.setText("");
-//        }
         switch (view.getId()){
             case R.id.about:
-                TextView name = findViewById(R.id.name);
-                TextView email = findViewById(R.id.email);
-                if(name.getText() == ""){
-                    name.setText(R.string.convert_name);
-                    email.setText(R.string.convert_email);
-                }else{
-                    name.setText("");
-                    email.setText("");
-                }
+                displayNameEmail();
                 break;
 
             case R.id.second:
@@ -48,6 +31,18 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
 
+    }
+
+    private void displayNameEmail(){
+        TextView name = findViewById(R.id.name);
+        TextView email = findViewById(R.id.email);
+        if(name.getText() == ""){
+            name.setText(R.string.convert_name);
+            email.setText(R.string.convert_email);
+        }else{
+            name.setText("");
+            email.setText("");
+        }
     }
 
 

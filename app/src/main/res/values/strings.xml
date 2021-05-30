@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">NUMAD21Su-Deepak-Kumar</string>
-    <!--    <string name="convert_string">Deepak Kumar</string>-->
     <string name="no_value_string">No Value</string>
     <string name="convert_email">kumar.de@northeastern.edu</string>
     <string name="convert_about">About</string>
@@ -13,6 +12,7 @@
     <string name="convert_d">D</string>
     <string name="convert_e">E</string>
     <string name="convert_f">F</string>
+    <string name="convert_pressed">Pressed</string>
 
 
 </resources>
