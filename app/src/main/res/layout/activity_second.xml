@@ -6,62 +6,88 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
+
     <Button
-        android:id="@+id/A"
-        android:layout_width="wrap_content"
+        android:id="@+id/buttonA"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:text="@string/covert_a"
-        app:layout_constraintBottom_toTopOf="@+id/D"
+        android:onClick="OnClick"
+        android:text="@string/convert_a"
+        app:layout_constraintBottom_toTopOf="@+id/btnD"
+        app:layout_constraintEnd_toStartOf="@+id/btnB"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.2" />
 
     <Button
-        android:id="@+id/B"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnB"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="@string/covert_b"
-        app:layout_constraintStart_toEndOf="@+id/A"
-        tools:layout_editor_absoluteY="69dp" />
+        android:onClick="OnClick"
+        android:text="@string/convert_b"
+        app:layout_constraintBottom_toTopOf="@+id/btnE"
+        app:layout_constraintEnd_toStartOf="@id/btnC"
+        app:layout_constraintStart_toEndOf="@id/buttonA"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.2" />
 
     <Button
-        android:id="@+id/C"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnC"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:text="@string/covert_c"
+        android:onClick="OnClick"
+        android:text="@string/convert_c"
+        app:layout_constraintBottom_toTopOf="@+id/btnF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/B"
-        tools:layout_editor_absoluteY="69dp" />
+        app:layout_constraintStart_toEndOf="@+id/btnB"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.2" />
 
     <Button
-        android:id="@+id/D"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnD"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:text="@string/covert_d"
+        android:onClick="OnClick"
+        android:text="@string/convert_d"
+        app:layout_constraintBottom_toTopOf="@+id/textViewPressed"
+        app:layout_constraintEnd_toStartOf="@+id/btnE"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="186dp" />
+        app:layout_constraintTop_toBottomOf="@id/buttonA"
+        app:layout_constraintWidth_percent="0.2" />
 
     <Button
-        android:id="@+id/E"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnE"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="@string/covert_e"
-        app:layout_constraintStart_toEndOf="@+id/D"
-        tools:layout_editor_absoluteY="186dp" />
+        android:onClick="OnClick"
+        android:text="@string/convert_e"
+        app:layout_constraintBottom_toTopOf="@+id/textViewPressed"
+        app:layout_constraintEnd_toStartOf="@+id/btnF"
+        app:layout_constraintStart_toEndOf="@+id/btnD"
+        app:layout_constraintTop_toBottomOf="@id/btnB"
+        app:layout_constraintWidth_percent="0.2" />
 
     <Button
-        android:id="@+id/F"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnF"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="@string/covert_f"
+        android:onClick="OnClick"
+        android:text="@string/convert_f"
+        app:layout_constraintBottom_toTopOf="@+id/textViewPressed"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.163"
-        app:layout_constraintStart_toEndOf="@+id/E"
-        tools:layout_editor_absoluteY="186dp" />
+        app:layout_constraintStart_toEndOf="@+id/btnE"
+        app:layout_constraintTop_toBottomOf="@id/btnC"
+        app:layout_constraintWidth_percent="0.2" />
+
+    <TextView
+        android:id="@+id/textViewPressed"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:freezesText="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnE"
+        app:layout_constraintWidth_percent="0.8" />
 </androidx.constraintlayout.widget.ConstraintLayout>

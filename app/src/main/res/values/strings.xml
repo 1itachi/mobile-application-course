@@ -7,12 +7,12 @@
     <string name="convert_string">No Value</string>
     <string name="convert_name">Deepak Kumar</string>
     <string name="covert_second">Second Activity</string>
-    <string name="covert_a">A</string>
-    <string name="covert_b">B</string>
-    <string name="covert_c">C</string>
-    <string name="covert_d">D</string>
-    <string name="covert_e">E</string>
-    <string name="covert_f">F</string>
+    <string name="convert_a">A</string>
+    <string name="convert_b">B</string>
+    <string name="convert_c">C</string>
+    <string name="convert_d">D</string>
+    <string name="convert_e">E</string>
+    <string name="convert_f">F</string>
 
 
 </resources>
