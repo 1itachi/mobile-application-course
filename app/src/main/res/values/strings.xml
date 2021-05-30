@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">NUMAD21Su-Deepak-Kumar</string>
-<!--    <string name="convert_string">Deepak Kumar</string>-->
+    <!--    <string name="convert_string">Deepak Kumar</string>-->
     <string name="no_value_string">No Value</string>
     <string name="convert_email">kumar.de@northeastern.edu</string>
     <string name="convert_about">About</string>
     <string name="convert_string">No Value</string>
     <string name="convert_name">Deepak Kumar</string>
+    <string name="covert_second">Second Activity</string>
+    <string name="covert_a">Second Activity</string>
 </resources>
