@@ -28,6 +28,12 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(this, SecondActivity.class);
                 startActivity(intent);
                 break;
+
+            case R.id.collector:
+                Intent intent1 = new Intent(this, LinkCollector.class);
+                startActivity(intent1);
+                break;
+
         }
 
     }

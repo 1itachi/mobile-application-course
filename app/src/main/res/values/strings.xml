@@ -13,6 +13,7 @@
     <string name="convert_e">E</string>
     <string name="convert_f">F</string>
     <string name="convert_pressed">Pressed</string>
+    <string name="convert_collector">Link Collector</string>
 
 
 </resources>
