@@ -11,4 +11,6 @@ public class LinkCollector extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_link_collector);
     }
+
+
 }

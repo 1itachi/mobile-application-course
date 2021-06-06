@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
 
-            case R.id.collector:
+            case R.id.linkCollector:
                 Intent intent1 = new Intent(this, LinkCollector.class);
                 startActivity(intent1);
                 break;
