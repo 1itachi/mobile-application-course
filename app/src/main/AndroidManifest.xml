@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_dk_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NUMAD21SuDeepakKumar">
-        <activity android:name=".LinkCollector"></activity>
+        <activity android:name=".LinkCollector" />
         <activity android:name=".SecondActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
