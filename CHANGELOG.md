@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/itachi1994/mobile-application-course/compare/v1.0.2...v1.0.3) (2021-06-07)
+
+
+### Bug Fixes
+
+* **pencil:** Release week 4 ([432bd91](https://github.com/itachi1994/mobile-application-course/commit/432bd9117223cab58d4e5b51c867ffaa17a83e59))
+
 ## [1.0.2](https://github.com/itachi1994/mobile-application-course/compare/v1.0.1...v1.0.2) (2021-06-06)
 
 
