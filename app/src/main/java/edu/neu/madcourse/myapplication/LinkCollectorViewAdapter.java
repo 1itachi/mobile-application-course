@@ -11,12 +11,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 public class LinkCollectorViewAdapter extends RecyclerView.Adapter<LinkCollectorViewHolder> {
-    private Context context;
+
     private ArrayList<LinkUnit> linkUnitList;
     private LinkClickListener linkClickListener;
 
-    public LinkCollectorViewAdapter(Context context, ArrayList<LinkUnit> linkUnitList) {
-        this.context = context;
+    public LinkCollectorViewAdapter(ArrayList<LinkUnit> linkUnitList) {
+
         this.linkUnitList = linkUnitList;
     }
 
@@ -34,8 +34,8 @@ public class LinkCollectorViewAdapter extends RecyclerView.Adapter<LinkCollector
     @Override
     public void onBindViewHolder(@NonNull LinkCollectorViewHolder linkCollectorViewHolder, int position) {
         LinkUnit currentLinkItem = linkUnitList.get(position);
-        linkCollectorViewHolder.linkName.setText(context.getString(R.string.NameValuePair, currentLinkItem.getLinkName()));
-        linkCollectorViewHolder.linkUrl.setText(context.getString(R.string.UrlValuePair, currentLinkItem.getLinkUrl()));
+        linkCollectorViewHolder.linkName.setText(currentLinkItem.getLinkName());
+        linkCollectorViewHolder.linkUrl.setText(currentLinkItem.getLinkUrl());
     }
 
     @Override
