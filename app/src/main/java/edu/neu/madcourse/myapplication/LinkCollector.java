@@ -103,12 +103,6 @@ public class LinkCollector extends AppCompatActivity {
         }
     }
 
-
-
-
-
-
-
     public void createInputAlertDialog() {
         LayoutInflater layoutInflater = LayoutInflater.from(this);
         View view = layoutInflater.inflate(R.layout.activity_link_details_input, null);
