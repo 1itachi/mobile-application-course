@@ -26,5 +26,6 @@
     <string name="NameValuePair">Name: %1$s</string>
     <string name="UrlValuePair">Url: %1$s</string>
     <string name="Http">http://</string>
+    <string name="convert_locator">LOCATOR</string>
 
 </resources>

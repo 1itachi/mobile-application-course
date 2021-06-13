@@ -33,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent1 = new Intent(this, LinkCollector.class);
                 startActivity(intent1);
                 break;
+            case R.id.locator:
+                Intent intent2 = new Intent(this, LocatorActivity.class);
+                startActivity(intent2);
+                break;
 
         }
 
