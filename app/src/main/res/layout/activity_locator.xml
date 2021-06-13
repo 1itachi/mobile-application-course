@@ -6,4 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".LocatorActivity">
 
+
+    <Button
+        android:id="@+id/btnGetLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getTheLocation"
+        android:text="@string/btnGetLocation"
+        app:layout_constraintBottom_toTopOf="@+id/textView_locator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView_locator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:freezesText="true"
+        android:text="@string/textViewLoc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnGetLocation" />
 </androidx.constraintlayout.widget.ConstraintLayout>
