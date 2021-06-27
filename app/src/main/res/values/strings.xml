@@ -33,5 +33,9 @@
     <string name="AtYourService">At Your Service</string>
     <string name="btnGetWeather">Get Weather</string>
     <string name="weather_service_description">Please click the below button to get the weather information of Boston city</string>
-
+    <string name="connection_in_progress">Fetching the weather information. Please wait.....</string>
+    <string name="temperature">Temperature: %1$s°F</string>
+    <string name="feels_like">Feels Like: %1$s°F</string>
+    <string name="max_temp">High: %1$s°F</string>
+    <string name="min_temp">Low: %1$s°F</string>
 </resources>
