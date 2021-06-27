@@ -37,7 +37,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent2 = new Intent(this, LocatorActivity.class);
                 startActivity(intent2);
                 break;
-
+            case R.id.atYourService:
+                Intent intent3 = new Intent(this, activity_AtYourService.class);
+                startActivity(intent3);
+                break;
         }
 
     }

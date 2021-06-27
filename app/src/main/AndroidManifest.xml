@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.neu.madcourse.myapplication">
+
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_dk"
@@ -9,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_dk_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NUMAD21SuDeepakKumar">
-        <activity android:name=".LocatorActivity"></activity>
+        <activity android:name=".activity_AtYourService"></activity>
+        <activity android:name=".LocatorActivity" />
         <activity android:name=".LinkCollector" />
         <activity android:name=".SecondActivity" />
         <activity android:name=".MainActivity">
