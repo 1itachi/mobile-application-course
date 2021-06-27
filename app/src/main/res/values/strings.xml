@@ -30,5 +30,6 @@
     <string name="btnGetLocation">Get Location</string>
     <string name="textViewLoc">Press the button to get location!</string>
     <string name="Location_access_denied">This app requires location access.\n Please grant location access.</string>
+    <string name="AtYourService">At Your Service</string>
 
 </resources>
