@@ -34,4 +34,11 @@ Repository for mobile application development CS5520 course
 <img src="https://user-images.githubusercontent.com/24586021/121819235-f1740400-cc59-11eb-893d-bf7cd2edac65.png" alt="Example1" width="193" height="400">
   
  </span>
+ 
+ ## Week7
+ <span>
+<img src="https://user-images.githubusercontent.com/24586021/123565066-9ed23600-d789-11eb-9bd4-d001a7281ed5.png" alt="Example1" width="193" height="400">
+<img src="https://user-images.githubusercontent.com/24586021/123565077-a42f8080-d789-11eb-964b-38bafb4c3c16.png" alt="Example1" width="193" height="400">
+<img src="https://user-images.githubusercontent.com/24586021/123565081-a691da80-d789-11eb-82fa-35bba8e4e16e.png" alt="Example1" width="193" height="400">
+</span>
 
